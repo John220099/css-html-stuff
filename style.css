@@ -1,0 +1,54 @@
+body {
+    /*text stuff*/
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: hsl(255, 30%, 8%);
+    text-shadow: 12px 4px 5px hsl(0, 0%, 22%);
+
+    /*contrast*/
+    filter: contrast(136%);
+
+    /*background stuff*/
+    background-size: auto;
+    background-color: hsl(0, 1%, 18%);
+    border: 4px solid hsl(138, 49%, 44%);
+    outline-offset: 2px;
+}
+
+h1 {
+    /*text is on da left side*/
+    text-align: left;
+}
+
+h2 {
+    /*text is in da middle*/
+    text-align: center;
+}
+
+h3 {
+    /*text on da left side*/
+    text-align: left;
+}
+
+h4 {
+    /*text in da middle*/
+    text-align: center;
+    text-size-adjust: 9;
+}
+
+h5 {
+    /*text on da right side*/
+    text-align: right;
+}
+
+h6 {
+    /*text on da right side*/
+    text-align: right;
+}
+
+button {
+    /*button stuff*/
+    color: hsl(194, 76%, 53%);
+    align-items: center;
+    top: 90x;
+    left: 40x;
+}
